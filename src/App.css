@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Raleway:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color:hsl(218, 28%, 13%);
+}
+
+.Card{
+  @apply flex flex-col items-center justify-center text-center leading-[2rem] ;
+}
+
+.get{
+  @apply  w-4/5 bg-Body rounded-md lg:w-3/5 mt-28 lg:mt-10 text-center p-8 absolute ; 
+  min-width: 60%;
+  left: 50%;
+  top: -50%;
+  transform: translateX(-50%);
+} 
+
+#items a::after{
+  content: " ";
+  position: absolute;
+  width: 0%;
+  height: 4px;
+  bottom: 0;
+  left: 10px;
+  margin-top: 3px;
+  background-color: aliceblue;
+  transition: 0.2s;
+}
+#items a:hover{
+  text-decoration: solid white 2px;
+}

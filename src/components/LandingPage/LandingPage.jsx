@@ -17,7 +17,7 @@ export default function LandingPage() {
     <div className='LandingPage'>
         <div className='Intro'>
              <img src={img} alt="" className='w-92 h-72 ' />
-              <h1 className='text-5xl text-white my-6'>All your files in one secure location, <br /> accessible anywhere</h1>
+              <h1 className='text-3xl lg:text-5xl text-white my-6'>All your files in one secure location, <br /> accessible anywhere</h1>
               <p className='text-white'>Fylo stores all your most important files in one secure location <br /> 
               Access theme wherever you need , share and collaborate with <br /> friends family , and co-workers </p>
               <button className='w-36 h-8  my-6 rounded-lg bg-CyanColor '>Get Started</button>

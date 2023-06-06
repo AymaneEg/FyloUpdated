@@ -8,7 +8,7 @@ import phone from "./icon-phone.svg"
 
 export default function Footer() {
   return (
-    <div className='w-full bg-footer relative mt-60 top'>
+    <div className='w-full bg-footer relative mt-96 top'>
       <div className='get'> 
          <h1 className='text-white text-5xl'>Get early access today</h1>
          <p className='text-gray-500 mx-8 my-2'>it only takes a minute to sign up and our free starter tier is extremeley generous . if you have any questions , our support team would be happy tp help you.</p>
@@ -18,7 +18,7 @@ export default function Footer() {
           </div>
       </div> 
 
-      <div className='p-24 sm:mt-28 pt-52'>
+      <div className='p-24 sm:mt-36 pt-72 lg:pt-36'>
          <div className=''>
            <img src={logo} alt="" className='w-23 h-9' />
          </div>
